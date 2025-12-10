@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MysteryLibrary/MysteryLibrary.vcxproj" Id="1c927665-3561-4e10-b8b2-320cbf12efbf" />
+</Solution>
