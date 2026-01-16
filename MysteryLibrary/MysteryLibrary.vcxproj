@@ -137,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main\header\App.h" />
+    <ClInclude Include="main\header\Enum.h" />
     <ClInclude Include="main\header\Frame\MysteryFrame.h" />
     <ClInclude Include="main\header\Object\Object.h" />
   </ItemGroup>

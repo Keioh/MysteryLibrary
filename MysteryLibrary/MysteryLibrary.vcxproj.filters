@@ -56,5 +56,8 @@
     <ClInclude Include="main\header\App.h">
       <Filter>ヘッダー ファイル\main</Filter>
     </ClInclude>
+    <ClInclude Include="main\header\Enum.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

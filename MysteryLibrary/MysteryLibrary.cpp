@@ -11,14 +11,20 @@ int main()
 {
     App main;
 
-    while (true)
+    main.Init();
+
+    while (LoopCode::LOOPING)
     {
         std::cout << "Loop\n";
 
+        main.Begin();
         main.Update();
+        main.End();
 
         break;
     }
+
+    main.Exit();
 
     std::cout << "Hello World!\n";
 }

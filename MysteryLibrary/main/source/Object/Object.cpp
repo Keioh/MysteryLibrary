@@ -32,3 +32,9 @@ void Object::End()
 {
 
 }
+
+//アプリケーション終了前に
+void Object::Exit()
+{
+
+}
