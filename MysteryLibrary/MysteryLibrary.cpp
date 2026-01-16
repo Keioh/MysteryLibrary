@@ -1,7 +1,10 @@
 ﻿// MysteryLibrary.cpp : このファイルには 'main' 関数が含まれています。プログラム実行の開始と終了がそこで行われます。
-//
+//Project設定で実行可能インクルード先にMeysteryLibrary\main\headerを追加すること
 
 #include <iostream>
+#include "Object/Object.h"
+
+using namespace MysteryLibrary;
 
 int main()
 {
