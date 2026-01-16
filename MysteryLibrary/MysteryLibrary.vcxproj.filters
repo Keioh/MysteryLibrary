@@ -42,6 +42,9 @@
     <ClCompile Include="main\source\Object\Object.cpp">
       <Filter>ソース ファイル\main\Object</Filter>
     </ClCompile>
+    <ClCompile Include="main\source\App.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main\header\Frame\MysteryFrame.h">
@@ -49,6 +52,9 @@
     </ClInclude>
     <ClInclude Include="main\header\Object\Object.h">
       <Filter>ヘッダー ファイル\main\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="main\header\App.h">
+      <Filter>ヘッダー ファイル\main</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

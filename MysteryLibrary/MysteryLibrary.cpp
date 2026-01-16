@@ -2,12 +2,24 @@
 //Project設定で実行可能インクルード先にMeysteryLibrary\main\headerを追加すること
 
 #include <iostream>
-#include "Object/Object.h"
+#include "main/header/App.h"
 
 using namespace MysteryLibrary;
 
+
 int main()
 {
+    App main;
+
+    while (true)
+    {
+        std::cout << "Loop\n";
+
+        main.Update();
+
+        break;
+    }
+
     std::cout << "Hello World!\n";
 }
 
