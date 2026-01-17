@@ -1,12 +1,12 @@
 #pragma once
-
+#include "Object/Object.h"
 
 namespace MysteryLibrary
 {
-	class MysteryFrame
+	class MysteryFrame : public Object
 	{
 	public:
-		void Main();
+		LoopCode CheckLoop(LoopCode errCode);
 
 	protected:
 

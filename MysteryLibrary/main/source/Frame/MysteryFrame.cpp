@@ -2,7 +2,9 @@
 
 using namespace MysteryLibrary;
 
-void MysteryFrame::Main()
+LoopCode MysteryFrame::CheckLoop(LoopCode errCode)
 {
+	LoopCode code = errCode;
 
+	return code;
 }

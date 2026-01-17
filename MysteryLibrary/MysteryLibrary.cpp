@@ -13,7 +13,7 @@ int main()
 
     main.Init();
 
-    while (LoopCode::LOOPING)
+    while (main.CheckLoop(LoopCode::LOOPING))
     {
         std::cout << "Loop\n";
 
