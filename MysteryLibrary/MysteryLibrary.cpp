@@ -9,24 +9,46 @@ using namespace MysteryLibrary;
 
 int main()
 {
+    bool isStarted = false;
     App main;
 
+    std::cout << "Init():START\n";
     main.Init();
+    std::cout << "Init():END\n";
 
     while (main.CheckLoop(LoopCode::LOOPING))
     {
-        std::cout << "Loop\n";
+        std::cout << "Looping\n";
 
+        if (isStarted == false)
+        {
+            std::cout << "LOOP:Start():START\n";
+            main.Start();
+            isStarted = true;
+            std::cout << "LOOP:Start():END\n";
+
+        }
+
+        std::cout << "LOOP:Begin():START\n";
         main.Begin();
+        std::cout << "LOOP:Begin():END\n";
+
+        std::cout << "LOOP:Update():START\n";
         main.Update();
-        main.End();
+        std::cout << "LOOP:Update():END\n";
+
+        std::cout << "LOOP:End():START\n";
+        main.End();        
+        std::cout << "LOOP:End():END\n";
+
 
         break;
     }
 
+    std::cout << "Exit():START\n";
     main.Exit();
+    std::cout << "Exit():END\n";
 
-    std::cout << "Hello World!\n";
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
